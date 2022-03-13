@@ -1,4 +1,6 @@
-
+*{
+    background-color: rgb(220, 228, 250);
+}
 #nftCard {
     flex-wrap:wrap;
     border-radius: 50em;
