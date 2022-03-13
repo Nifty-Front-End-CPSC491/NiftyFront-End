@@ -1,0 +1,48 @@
+
+#nftCard {
+    flex-wrap:wrap;
+    border-radius: 50em;
+}
+.list-group{
+    padding-top: 30px;
+}
+#sidebar-wrapper {
+    height: 20px;
+}
+#nifty-hero{
+    height: 20px;
+}
+#cash-coin{
+    height: 25px;
+}
+.card-img-top {
+    width: 80%;
+    height: 15vw;
+    object-fit: cover;
+}
+.list-group{
+    background-color: lightcyan; 
+}
+.card{
+    border-radius: 50em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 1%;
+    width: 18rem;
+}
+.card:hover {
+    transform: scale(1.1);
+  }
+  
+.svg-eth {
+    height: 30px;
+    float: left;
+    justify-content: space-between;
+}
+
+.card-footer{
+    text-align: right;   
+}
+
+.btn{
+    border-radius: 20em;
+}
