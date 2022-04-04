@@ -25,6 +25,11 @@
 .list-group{
     background-color: lightcyan; 
 }
+
+.carouselImageOne{
+    width: 100%;
+}
+
 .card{
     border-radius: 50em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
