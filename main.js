@@ -14,7 +14,29 @@ document.getElementById('close').addEventListener('click', function()
 });
 
 
-
+function search()
+{
+    var input = document.getElementById('search_input')
+    var filter = input.value.toUpperCase()
+    var card = document.getElementsByClassName("card-title")
+    var card_body = document.getElementsByClassName("card p-2 bg-light")
+    for (i = 0; i < card.length; i++)
+    {
+        card_text = card[i].innerHTML.toUpperCase()
+        console.log(card_body[i])
+        console.log(card_text)
+        console.log(filter)
+        if (card_text.indexOf(filter) > -1)
+        {
+            card_body[i].style.display = "";
+        }
+        else
+        {
+            card_body[i].style.display = "none"
+        }
+    }
+    
+}
 
 
 function toggleButton() {
