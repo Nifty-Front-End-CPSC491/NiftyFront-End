@@ -3,15 +3,6 @@ const loginButton = document.getElementById("buttonMeta")
 const userWallet = document.getElementById('userWallet')
 
 
-document.getElementById('person').addEventListener('click', function()
-{
-    document.getElementById('pop-up').style.display = "flex"
-});
-
-document.getElementById('close').addEventListener('click', function()
-{
-    document.getElementById('pop-up').style.display = "none"
-});
 
 
 function search()
@@ -42,6 +33,9 @@ function search()
 function toggleButton() {
     if (!window.ethereum) {
         loginButton.innerText = 'MetaMask is not installed'
+        loginButton.onclick = function () {
+            window.open("https://metamask.io/download/");
+        }
         //loginButton.classList.remove('btn-primary')
         //loginButton.classList.add('bg-gray-500', 'text-gray-100', 'cursor-not-allowed')
         return false
