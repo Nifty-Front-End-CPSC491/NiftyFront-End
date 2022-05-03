@@ -3,6 +3,9 @@ const loginButton = document.getElementById("buttonMeta")
 const userWallet = document.getElementById('userWallet')
 
 
+function change(){
+    location.href = "brianJonesSelected.html"
+}
 
 
 function search()
@@ -103,3 +106,4 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-white";
 }
+

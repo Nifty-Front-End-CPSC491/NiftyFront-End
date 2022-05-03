@@ -14,7 +14,7 @@
   <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
     <div class="container-xxl">
       <!-- navbar brand / title -->
-      <a class="navbar-brand" href="#intro">
+      <a class="navbar-brand" href="index.html">
         <span class="text-secondary fw-bold">
           Nifty
         </span>
@@ -73,7 +73,7 @@
 </nav>
 
   <!-- main image & intro text -->
-  <section id="intro">
+  <section id="intro" onclick="change()">
     <div class="container-lg">
       <div class="row g-4 justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
@@ -82,7 +82,7 @@
             <div class="display-5 text-muted">NFTs From Your Favorite Artist</div>
           </h1>
           <p class="lead my-4 text-muted">All Original Art of Musical Geniuses of the 21st Century</p>
-          <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+          <a href="brianJonesSelected.html" class="btn btn-secondary btn-lg">Buy Now</a>
         </div>
         <div class="col-md-5 text-center d-none d-md-block">
           <img src="images/Brian_Jones.png" class="img-fluid" alt="ebook">
@@ -116,10 +116,10 @@
 
             <div class="col-8 col-lg-4 col-xl-3">
             <div class="card border-0">
-                <div class="card-body text-center py-5">
+                <div class="card-body text-center py-4">
                 <h4 class="card-title">MetaMask</h4>
                 <p class="card-text mx-5 text-muted d-none d-lg-block">We support Metamask Wallet, so once that is setup you are ready for transactions.</p>
-                <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                <a href="#" class="btn btn-outline-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#myModal">
                     Login Now
                 </a>
                 </div>
@@ -131,7 +131,7 @@
                 <div class="card-body text-center py-4">
                 <h4 class="card-title">Customer Support</h4>
                 <p class="card-text mx-5 text-muted d-none d-lg-block">We are here to help you along the way with 24/7 customer support.</p>
-                <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                <a href="#phone" class="btn btn-outline-primary btn-lg mt-3">
                     Call Now
                 </a>
                 </div>
@@ -143,7 +143,7 @@
                     <div class="card-body text-center py-4">
                     <h4 class="card-title">Listing</h4>
                     <p class="card-text mx-5 text-muted d-none d-lg-block">Once your NFT's are finalized, list them for sale at your own pricing.</p>
-                    <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                    <a href="viewAll.html" class="btn btn-outline-primary btn-lg mt-3">
                         Listings
                     </a>
                     </div>
@@ -231,26 +231,19 @@
         <footer class="w-100 py-4 flex-shrink-0">
             <div class="container py-4">
                 <div class="row gy-4 gx-5">
-                    <div class="col-lg-4 col-md-6">
+                    <div id="phone" class="col-lg-4 col-md-6">
                         <h5 class="h1 text-black">Nifty</h5>
-                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <h3>
+                          Phone:
+                        </h3>
+                          <p class="text-muted">Phone: +1 (714)-995-9118</p>
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <h5 class="text-white mb-3">Quick links</h5>
                         <ul class="list-unstyled text-muted">
                             <li><a href="#">Home</a></li>
+                            <li><a href="#pricing">Get started</a></li>
                             <li><a href="#carouselExampleIndicators2">About</a></li>
-                            <li><a href="#">Get started</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6">
-                        <h5 class="text-white mb-3">Quick links</h5>
-                        <ul class="list-unstyled text-muted">
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Investors</a></li>
-                            <li><a href="#">Terms and Conditions</a></li>
-                            <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6">
