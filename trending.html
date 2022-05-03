@@ -62,7 +62,7 @@
     <nav class="navbar navbar-expand-md navbar-light pt-2 pb-4">
         <div class="container-xxl">
             <div class="input-group rounded">
-                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon"/>
+                <input id="search_input" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" onkeyup="search()"/>
             </div>
             
             <div class="navbar-nav" id="navbarSupportedContent">
@@ -237,8 +237,7 @@
                   </div>
               </div>
           </footer>
-        <!-- The Modal -->
-        <div class="modal" id="myModal">
+          <div class="modal" id="myModal">
             <div class="modal-dialog">
               <div class="modal-content">
                 <!-- Modal body -->
@@ -248,6 +247,8 @@
               </div>
             </div>
           </div>
+
+
           
   
   
