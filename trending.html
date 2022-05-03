@@ -48,7 +48,9 @@
               <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item ms-2 d-none d-md-inline">
-              <a class="btn btn-secondary" href="#pricing">MetaMask Login</a>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Login Metamask
+                </button>
             </li>
             
           </ul>
@@ -235,6 +237,17 @@
                   </div>
               </div>
           </footer>
+
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="buttonMeta" onclick="">Login with MetaMask</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
           
   
