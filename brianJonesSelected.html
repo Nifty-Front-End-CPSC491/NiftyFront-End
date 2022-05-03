@@ -15,21 +15,50 @@
 <body>
     
 
-<div class="d-flex justify-content-center">
-    <!-- Sidebar-->
-    <div class="border-end mx-5 my-5 bg-white text-center" id="sidebar-wrapper">
-        <div class=" d-flex sidebar-heading border-bottom bg-light" id="nifty-hero"> <h1>Nifty</h1> <img src="images/cash-coin.svg" alt="cash-coin" id="cash-coin"></div>
-        <div class="list-group list-group-flush mt-1">
-            <a href="index.html" class="mx-3 my-3 btn btn-primary">Home</a>
-            
-            <a href="trending.html" class="mx-3 my-3 btn btn-secondary">Trending</a>
-            
-            <a href="recentDrops.html" class="mx-3 my-3 btn btn-secondary">Recent Drops</a>
-         
-            <a href="comingSoon.html" class="mx-3 my-3 btn btn-secondary">Coming Soon</a>
-            <a href="viewAll.html" class="mx-3 my-3 btn btn-secondary">View All</a>
-        </div>
+<!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          Nifty
+        </span>
+        <img src="images/cash-coin.svg" alt="cash-coin" id="cash-coin">
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="trending.html">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recentdrops.html">Recent Drops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Coming Soon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">View All</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#pricing">MetaMask Login</a>
+          </li>
+
+        </ul>
+      </div>
     </div>
+  </nav>
     <!--Page content wrapper-->
     <div id="page-content-wrapper">
         <!--Top Navigation-->
